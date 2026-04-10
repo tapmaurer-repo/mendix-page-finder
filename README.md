@@ -21,8 +21,8 @@ Uncomment when demo GIF is added
 
 Click the bookmarklet on any Mendix page and it shows:
 
-- **Module name** — e.g. `Verpact_Material`
-- **Page name** — e.g. `Products_Overview`
+- **Module name** — e.g. `Module_Orders`
+- **Page name** — e.g. `Page_Overview`
 - **Popup detection** — if a modal is open, it detects the popup's page name instead of the background page
 - **Copy to clipboard** — one click to copy the full page path, then Ctrl+G in Studio Pro to jump straight to it
 
@@ -155,4 +155,4 @@ Apache 2.0 — see [LICENSE](./LICENSE) for details.
 
 ---
 
-Built by [Tim Maurer](https://timothymaurer.com)
+Built by Tim Maurer
