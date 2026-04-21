@@ -1,24 +1,3 @@
-/**
- * Mendix Page Finder — Bookmarklet
- * 
- * Detects the current Mendix page name and module in any Mendix app.
- * Works with React (10+) and Dojo (7-9) clients, including popups.
- * 
- * Features:
- * - React pages via window.history.state.pageName
- * - Dojo pages via mx.ui.getContentForm()
- * - Popup detection via modal dialog ID scanning
- * - Auto-copy to clipboard with fallback
- * - White toast notification with version badge
- * - 5-second auto-close with fade-out
- * - Click to dismiss
- * 
- * Usage: Create a bookmark and paste the minified version as the URL.
- * 
- * Author: Tim Maurer — timothymaurer.com
- * License: Apache 2.0
- */
-
 (function () {
     var v = '?';
     var p = '';
